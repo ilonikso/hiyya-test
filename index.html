@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hiyya</title>
+    <title>Heyya</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -30,11 +30,11 @@
       </div>
     </header>
     
-    <section class="advertisment1">
+    <section class="advertisment1 advertisment--index">
         <div class="advertisment__wrapper wrapper">
             <div class="advertisment__text-block" data-aos="fade-right">
                 <h1 class="advertisment__header">Find talent with the attitude and abilities to elevate your business</h1>
-                <p class="advertisment__text">hiyya helps talent acquisition teams and hiring <br> managers to intelligently identify, match and start direct conversations with high quality candidates</p>
+                <p class="advertisment__text">heyya helps talent acquisition teams and hiring <br> managers to intelligently identify, match and start direct conversations with high quality candidates</p>
                 <div class="advertisment__buttons">
                     <a href="contact.html" class="advertsment__button button button--blue">Get a qoute</a>
                     <a href="about.html" class="advertsment__button button">About us</a>
@@ -68,13 +68,13 @@
                 </div>
                 <div class="step__text" data-aos="fade-left">
                     <h2 class="step__text-header">Look beyond keywords to uncover exceptional talent</h2>
-                    <p class="step__text-text">hiyya examines candidates based on behaviours, values, vision - and not keywords and educational background - to find the people guaranteed to strengthen your team, boost retention, and promote diversity in your business.</p>
+                    <p class="step__text-text">heyya examines candidates based on behaviours, values, vision - and not keywords and educational background - to find the people guaranteed to strengthen your team, boost retention, and promote diversity in your business.</p>
                 </div>
             </div>
             <div class="step__block">
                 <div class="step__text" data-aos="fade-right">
                     <h2 class="step__text-header">Your talent sourcing automated</h2>
-                    <p class="step__text-text">Maximise your productivity. hiyya builds your top-of-the-funnel candidate pipeline so that you can devote your time to nurturing relationships with excellent candidates.</p>
+                    <p class="step__text-text">Maximise your productivity. heyya builds your top-of-the-funnel candidate pipeline so that you can devote your time to nurturing relationships with excellent candidates.</p>
                     <a href="how-it-works.html" class="step-text__button step-text__button--1 button">Learn how it works</a>
                 </div>
                 <div class="step__img step__img--2" data-aos="fade-left" data-aos-delay="300">
@@ -93,19 +93,35 @@
         </div>
     </section>
     
-    <section class="plan">
+    <section class="plan plan--price plan--new">
         <h2 class="plan__header">Choose your plan</h2>
+        <div class="plan__switch">
+            <label for="plan-switch" class="plan__label">
+                <input type="checkbox" id="plan-switch">
+                <span class="plan__slider"></span>
+                <span class="plan__span plan__span--1">Monthly</span>
+                <span class="plan__span plan__span--2">Annualy</span>
+            </label>
+        </div>
+        
         <div class="plan__wrapper wrapper">
             <div class="plan__block" data-aos="fade-up" data-aos-delay="0">
                 <h3 class="plan__block-header">Lite</h3>
-                <p class="plan__block-header-text">Fixed amount of introductions to high quality candidates</p>
+                <p class="plan__block-header-text">Unlimited introductions to high quality junior candidates</p>
                 <ul class="plan__list">
-                    <li class="plan__list-item">3 Candidate introductions</li>
+                    <li class="plan__list-item">Unlimited introductions to Junior/Entry level candidates</li>
+                    <li class="plan__list-item">Priced per search focus e.g “Account Executives” or “Full-Stack Engineers”</li>
                     <li class="plan__list-item">Streamlined vacancy onboarding</li>
-                    <li class="plan__list-item">Data-matched exeptional candidates</li>
+                    
+                    <li class="plan__list-item">Data-matched exceptional candidates</li>
+                    <li class="plan__list-item">Pause or stop at any time</li>
+                    <li class="plan__list-item">Add or remove vacancies instantly</li>
+                    <li class="plan__list-item">Predictive sourcing</li>
+                    <li class="plan__list-item">ATS integration</li>
+                    
                 </ul>
                 <div class="plan__price">
-                    <span class="plan__price-num">£949</span>
+                    <span class="plan__price-num plan__price-num--lite">£949</span>
                     <span class="plan__price-text">3 introductions / month</span>
                     <a href="pricing.html" class="plan__button button button--blue">Start now</a>
                 </div>
@@ -116,18 +132,18 @@
                 <h3 class="plan__block-header">Premium</h3>
                 <p class="plan__block-header-text">Unlimited introductions to high quality candidates</p>
                 <ul class="plan__list">
-                    <li class="plan__list-item">Unlimited Candidate introductions</li>
+                    <li class="plan__list-item">Unlimited introductions to all candidate levels </li>
+                    <li class="plan__list-item">Priced per search focus e.g “Account Executives” or “Full-Stack Engineers”</li>
                     <li class="plan__list-item">Streamlined vacancy onboarding</li>
-                    <li class="plan__list-item">Data-matched exeptional candidates</li>
-                    <li class="plan__list-item">Unlimited candidates</li>
+                    <li class="plan__list-item">Data-matched exceptional candidates</li>
                     <li class="plan__list-item">Pause or stop at any time</li>
                     <li class="plan__list-item">Add or remove vacancies instantly</li>
                     <li class="plan__list-item">Predictive sourcing</li>
                     <li class="plan__list-item">ATS integration</li>
                 </ul>
                 <div class="plan__price">
-                    <span class="plan__price-num">£1449*</span>
-                    <span class="plan__price-text">Per month</span>
+                    <span class="plan__price-num plan__price-num--premium">£1249</span>
+                    <span class="plan__price-text">Per month*</span>
                     <a href="pricing.html" class="plan__button button button--blue">Start now</a>
                     <span class="plan__price-discount">*20% discount for 12 months</span>
                 </div>
@@ -137,15 +153,19 @@
                 <h3 class="plan__block-header">Custom</h3>
                 <p class="plan__block-header-text">Unlimited vacancies designed for high growth businesses</p>
                 <ul class="plan__list">
-                    <li class="plan__list-item">Unlimited Candidate introductions</li>
+                    <li class="plan__list-item">Unlimited introductions to all candidate levels </li>
+                    <li class="plan__list-item">Priced Per Search Focus eg “Account Executives” or “Full-Stack Engineers”</li>
                     <li class="plan__list-item">Streamlined vacancy onboarding</li>
-                    <li class="plan__list-item">Data-matched exeptional candidates</li>
-                    <li class="plan__list-item">Unlimited candidates</li>
-                    <li class="plan__list-item">Unlimited vacancies</li>
+                    <li class="plan__list-item">Data-matched exceptional candidates</li>
                     <li class="plan__list-item">Pause or stop at any time</li>
+                    <li class="plan__list-item">Unlimited vacancies</li>
                     <li class="plan__list-item">Add or remove vacancies instantly</li>
                     <li class="plan__list-item">Predictive sourcing</li>
                     <li class="plan__list-item">ATS integration</li>
+                    <li class="plan__list-item">Hiring manager success coaching</li>
+                    <li class="plan__list-item">Hiring manager success coaching</li>
+                    <li class="plan__list-item">Employer brand insights</li>
+                    
                 </ul>
                 <div class="plan__price">
                     <span class="plan__price-num"></span>
@@ -153,6 +173,12 @@
                     <a href="contact.html" class="plan__button button button--blue">Get a quote</a>
                 </div>
             </div>
+        </div>
+        
+        <div class="plan__discover">
+            <span class="plan__discover-header">Not sure which plan <br> is right for you?</span>
+            <span class="plan__discover-text">We can help!</span>
+            <a href="contact.html" class="plan__button button button--blue">Contact us</a>
         </div>
     </section>
     
@@ -165,7 +191,7 @@
                 <div class="swiper-slide">
                     <div class="review__item-wrapper">
                         <div class="review__text">
-                            <p class="review__item-text">“Prior to hiyya, our company growth was crippled by the amount of time dedicated to finding high caliber developers. The many interviews and tests needed to achieve this meant that on average 1 day of productivity was lost and the average recruitment time was as high as 2 months. hiyya has reduced this to around 1 month while maintaining our high standards of technical abilities and cultural fit.”</p>
+                            <p class="review__item-text">“Prior to heyya, our company growth was crippled by the amount of time dedicated to finding high caliber developers. The many interviews and tests needed to achieve this meant that on average 1 day of productivity was lost and the average recruitment time was as high as 2 months. heyya has reduced this to around 1 month while maintaining our high standards of technical abilities and cultural fit.”</p>
                             <p class="review__item-name">Yannick Brunner, Co-Founder at WealthKernel</p>
                         </div>
                         <div class="review__img"><img src="img/raster/review-user-1.png" alt="user icon"></div>
@@ -174,7 +200,7 @@
                 <div class="swiper-slide">
                     <div class="review__item-wrapper">
                         <div class="review__text">
-                            <p class="review__item-text">“Prior to hiyya, our company growth was crippled by the amount of time dedicated to finding high caliber developers. The many interviews and tests needed to achieve this meant that on average 1 day of productivity was lost and the average recruitment time was as high as 2 months. hiyya has reduced this to around 1 month while maintaining our high standards of technical abilities and cultural fit.”</p>
+                            <p class="review__item-text">“Prior to heyya, our company growth was crippled by the amount of time dedicated to finding high caliber developers. The many interviews and tests needed to achieve this meant that on average 1 day of productivity was lost and the average recruitment time was as high as 2 months. heyya has reduced this to around 1 month while maintaining our high standards of technical abilities and cultural fit.”</p>
                             <p class="review__item-name">Yannick Brunner, Co-Founder at WealthKernel</p>
                         </div>
                         <div class="review__img"><img src="img/raster/review-user-1.png" alt="user icon"></div>
@@ -183,7 +209,7 @@
                 <div class="swiper-slide">
                     <div class="review__item-wrapper">
                         <div class="review__text">
-                            <p class="review__item-text">“Prior to hiyya, our company growth was crippled by the amount of time dedicated to finding high caliber developers. The many interviews and tests needed to achieve this meant that on average 1 day of productivity was lost and the average recruitment time was as high as 2 months. hiyya has reduced this to around 1 month while maintaining our high standards of technical abilities and cultural fit.”</p>
+                            <p class="review__item-text">“Prior to heyya, our company growth was crippled by the amount of time dedicated to finding high caliber developers. The many interviews and tests needed to achieve this meant that on average 1 day of productivity was lost and the average recruitment time was as high as 2 months. heyya has reduced this to around 1 month while maintaining our high standards of technical abilities and cultural fit.”</p>
                             <p class="review__item-name">Yannick Brunner, Co-Founder at WealthKernel</p>
                         </div>
                         <div class="review__img"><img src="img/raster/review-user-1.png" alt="user icon"></div>
@@ -205,11 +231,11 @@
 
     <footer class="footer">
         <div class="footer__wrapper">
-            <a href="index.html"><img src="img/vector/hiyya-logo-blue.svg" alt="Hiyya logo" class="footer__logo"></a>
+            <a href="index.html"><img src="img/vector/hiyya-logo-blue.svg" alt="Heyya logo" class="footer__logo"></a>
             <div class="footer__links">
                 <a href="#" class="footer__link">Terms &#38; conditions</a>
                 <a href="#" class="footer__link">Privacy</a>
-                <span class="footer__link footer--copy">Hiyya | 2019 All rights reserved</span>
+                <span class="footer__link footer--copy">Heyya | 2019 All rights reserved</span>
             </div>
         </div>
     </footer>
@@ -219,6 +245,7 @@
     <script src="js/aos.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/menuOpen.js"></script>
+    <script src="js/planPrice.js"></script>
     
 </body>
 </html>
