@@ -927,6 +927,9 @@ img {
     top: -95px;
     left: -150px;
     margin-bottom: 15px; }
+  .steps--index .wrapper {
+    padding-top: 100px;
+    margin-top: -100px; }
 
 .steps--about {
   margin-top: 130px;
@@ -1774,6 +1777,21 @@ img {
     opacity: 1;
     outline: none; }
 
+.form__block-wrapper {
+  display: grid;
+  grid-template-columns: 390px 390px; }
+
+.form__label {
+  top: 36px; }
+
+.form__input:focus ~ .form__label,
+.form__input:not(:focus):valid ~ .form__label {
+  top: 15px;
+  font-size: 14px; }
+
+.form__button {
+  margin-left: auto; }
+
 @media (max-width: 1023.8px) {
   .form__wrapper {
     left: 0;
@@ -1781,7 +1799,10 @@ img {
     padding-right: 20px;
     width: calc(100% - 40px); }
   .form__block {
-    width: 47%; } }
+    width: 47%; }
+  .form__block-wrapper {
+    grid-template-columns: 0.47fr 0.47fr;
+    margin-bottom: 50px; } }
 
 @media (max-width: 767.8px) {
   .form__wrapper {
@@ -1797,7 +1818,12 @@ img {
     float: none;
     display: block;
     margin-top: 70px;
-    width: 180px; } }
+    width: 180px; }
+  .form__block-wrapper {
+    grid-template-columns: 1fr;
+    margin-bottom: 50px; }
+  .form__item:nth-child(5) {
+    margin-top: 50px; } }
 
 .swiper-container {
   min-height: 400px; }
@@ -1852,7 +1878,8 @@ img {
   line-height: normal;
   padding-left: 5px;
   padding-top: 15px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 40px; }
   .review__text::after {
     display: block;
     content: '';
