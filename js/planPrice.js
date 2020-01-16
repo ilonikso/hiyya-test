@@ -1,6 +1,5 @@
 let priceLiteMonthly = '949';
 let priceLiteAnnualy = '759';
-
 let pricePremiumMonthly = '1249';
 let pricePremiumAnnualy = '999';
 
