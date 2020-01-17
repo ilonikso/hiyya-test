@@ -1168,7 +1168,7 @@ img {
   .plan__switch input:focus + .plan__slider {
     box-shadow: 0 0 1px #2196F3; }
   .plan__switch input:checked + .plan__slider:before {
-    transform: translateX(97px); }
+    transform: translateX(98px); }
   .plan__switch input:checked ~ .plan__span--2 {
     color: #5b90f7; }
   .plan__switch input:checked ~ .plan__span--1 {
