@@ -648,7 +648,9 @@ img {
 
 .advertisment__wrapper {
   display: flex;
-  margin-top: 95px; }
+  margin-top: 95px;
+  margin-top: 85px;
+  padding-top: 10px; }
 
 .advertisment__text-block {
   width: 42%;
@@ -787,7 +789,8 @@ img {
 @media (max-width: 767.8px) {
   .advertisment__wrapper {
     flex-direction: column-reverse;
-    margin-top: 30px; }
+    margin-top: 20px;
+    padding-top: 10px; }
   .advertisment__text-block {
     margin-top: 0;
     width: 100%; }
@@ -1207,7 +1210,8 @@ img {
   left: 10%;
   color: white;
   font-family: 'pr-b';
-  z-index: 10; }
+  z-index: 10;
+  cursor: pointer; }
 
 .plan__span--1 {
   left: 14.5%; }
