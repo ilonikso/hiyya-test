@@ -646,41 +646,41 @@ img {
 .header--how .nav--mobile-active {
   background-color: #f5f8ff; }
 
-.advertisment__wrapper {
+.promotion__wrapper {
   display: flex;
   margin-top: 95px;
   margin-top: 85px;
   padding-top: 10px; }
 
-.advertisment__text-block {
+.promotion__text-block {
   width: 42%;
   margin-top: 20px; }
 
-.advertisment__text {
+.promotion__text {
   margin-top: -5px; }
 
-.advertisment__img {
+.promotion__img {
   position: relative;
   right: -68px;
   top: 5px; }
 
-.advertisment__buttons {
+.promotion__buttons {
   margin-top: 35px; }
-  .advertisment__buttons .button {
+  .promotion__buttons .button {
     margin-right: 18px; }
 
-.advertisment--index .advertisment__img {
+.promotion--index .promotion__img {
   right: -38px;
   top: -25px;
   margin-right: -50px; }
-  .advertisment--index .advertisment__img img {
+  .promotion--index .promotion__img img {
     transform: scale(0.92); }
 
-.advertisment--price {
+.promotion--price {
   position: relative; }
-  .advertisment--price::before {
+  .promotion--price::before {
     display: block;
-    content: '';
+    content: "";
     position: absolute;
     right: 0;
     top: 125px;
@@ -690,27 +690,27 @@ img {
     background-image: url(../img/vector/advertisment-price-decoration.svg);
     background-position: center;
     background-repeat: no-repeat; }
-  .advertisment--price .advertisment__wrapper {
+  .promotion--price .promotion__wrapper {
     margin-top: 60px; }
-  .advertisment--price .advertisment__header {
+  .promotion--price .promotion__header {
     line-height: 66px; }
-  .advertisment--price .advertisment__text-text {
+  .promotion--price .promotion__text-text {
     margin-top: -15px; }
 
-.advertisment--about .advertisment__wrapper {
+.promotion--about .promotion__wrapper {
   margin-top: 60px; }
 
-.advertisment--about .advertisment__header {
+.promotion--about .promotion__header {
   width: 80%;
   line-height: 1.32; }
 
-.advertisment--about .advertisment__img {
+.promotion--about .promotion__img {
   position: relative;
   flex-shrink: 0;
   margin-right: -75px;
   top: -15px; }
 
-.advertisment--about .advertisment-about__banner {
+.promotion--about .promotion-about__banner {
   margin-top: 25px;
   min-height: 304px;
   background-image: url(../img/raster/about-banner.jpg);
@@ -718,128 +718,128 @@ img {
   background-position: center;
   background-size: cover; }
 
-.advertisment--how .advertisment__img {
+.promotion--how .promotion__img {
   position: relative;
   top: -82px;
   flex-shrink: 0;
   margin-right: -75px; }
 
-.advertisment--how .advertisment__text-text {
+.promotion--how .promotion__text-text {
   margin-top: -20px; }
 
-.advertisment--contact .advertisment__wrapper {
+.promotion--contact .promotion__wrapper {
   margin-top: 80px; }
 
-.advertisment--contact .advertisment__img {
+.promotion--contact .promotion__img {
   flex-shrink: 0;
   margin-right: -85px;
   margin-left: 20px; }
 
-.advertisment--contact .advertisment__header {
+.promotion--contact .promotion__header {
   letter-spacing: 0.032em;
   line-height: 66px; }
 
 @media (max-width: 1378px) {
-  .advertisment__wrapper {
+  .promotion__wrapper {
     overflow: hidden; }
-  .advertisment--how .advertisment__wrapper {
+  .promotion--how .promotion__wrapper {
     padding-top: 75px;
     margin-top: 20px; }
-  .advertisment--how .advertisment__img {
+  .promotion--how .promotion__img {
     margin-right: -145px;
     right: -50px; }
-  .advertisment--about .advertisment__wrapper {
+  .promotion--about .promotion__wrapper {
     padding-top: 55px;
     margin-top: 0px; }
-  .advertisment--price .advertisment__header br {
+  .promotion--price .promotion__header br {
     display: none; } }
 
 @media (max-width: 1024px) {
-  .advertisment__text-block {
+  .promotion__text-block {
     width: 80%; }
-  .advertisment__img {
+  .promotion__img {
     right: 0;
     top: 50px; }
-  .advertisment--how .advertisment__img {
+  .promotion--how .promotion__img {
     margin-right: -180px;
     right: 30px;
     top: -60px; }
-    .advertisment--how .advertisment__img img {
+    .promotion--how .promotion__img img {
       max-width: 80%; }
-  .advertisment--how .advertisment__text {
+  .promotion--how .promotion__text {
     width: 40%;
     flex-shrink: 0; }
-  .advertisment--about .advertisment__img {
+  .promotion--about .promotion__img {
     top: 60px; }
-  .advertisment--contact .advertisment__wrapper {
+  .promotion--contact .promotion__wrapper {
     margin-top: 30px;
     padding-top: 30px; }
-  .advertisment--contact .advertisment__img {
+  .promotion--contact .promotion__img {
     margin-right: -230px; } }
 
 @media (max-width: 960px) {
-  .advertisment--contact .advertisment__img {
+  .promotion--contact .promotion__img {
     margin-right: -330px; }
-    .advertisment--contact .advertisment__img img {
+    .promotion--contact .promotion__img img {
       max-width: 80%; }
-  .advertisment--about .advertisment__img {
+  .promotion--about .promotion__img {
     margin-right: -160px;
     margin-left: 20px; } }
 
 @media (max-width: 767.8px) {
-  .advertisment__wrapper {
+  .promotion__wrapper {
     flex-direction: column-reverse;
     margin-top: 20px;
     padding-top: 10px; }
-  .advertisment__text-block {
+  .promotion__text-block {
     margin-top: 0;
     width: 100%; }
-  .advertisment__header {
+  .promotion__header {
     font-size: 40px;
     line-height: 1.31; }
-  .advertisment__img {
+  .promotion__img {
     margin: 0 auto;
     text-align: center;
     top: 0;
     right: -20px; }
-  .advertisment--how .advertisment__img {
+  .promotion--how .promotion__img {
     margin-right: 0;
     right: -20px;
     transform: scale(1.4);
     margin-top: 50px;
     margin-bottom: 30px; }
-  .advertisment--how .advertisment__text {
+  .promotion--how .promotion__text {
     width: 100%;
     margin-top: -50px; }
-  .advertisment--price .advertisment__header {
+  .promotion--price .promotion__header {
     line-height: 1.31; }
-  .advertisment--contact .advertisment__header {
+  .promotion--contact .promotion__header {
     line-height: 1.31; }
-  .advertisment--contact .advertisment__img {
+  .promotion--contact .promotion__img {
     margin-right: 0;
     right: -25%;
     margin-bottom: 20px;
     transform: scale(1.5); }
-  .advertisment--about .advertisment__header {
+  .promotion--about .promotion__header {
     width: 100%;
     line-height: 1.31; }
-  .advertisment--about .advertisment-about__banner {
+  .promotion--about .promotion__banner-about {
     min-height: 180px; }
-  .advertisment--about .advertisment__img {
+  .promotion--about .promotion__img {
     margin-right: -30px;
     right: -12%;
     top: 0;
     margin: 0 auto; } }
 
 @media (max-width: 375px) {
-  .advertisment--about .advertisment__img {
+  .promotion--about .promotion__img {
     margin-right: -30px;
     right: -55px; }
-  .advertisment--how .advertisment__img img {
+  .promotion--how .promotion__img img {
     transform: scale(2); }
-  .advertisment--contact .advertisment__img {
+  .promotion--contact .promotion__img {
     right: -30%; }
-    .advertisment--contact .advertisment__img img {
+    .promotion--contact .promotion__img img {
       transform: scale(1.5); } }
 
 .customers {
@@ -921,162 +921,165 @@ img {
 .step-text__button--1 {
   width: 170px; }
 
+.step__text-button--1 {
+  width: 170px; }
+
 .step__img {
   width: 54%; }
 
-.steps--index {
+.step--index {
   margin-top: 235px;
   margin-bottom: 22px; }
-  .steps--index .step__img--1 {
+  .step--index .step__img--1 {
     position: relative;
     top: -95px;
     left: -30px;
     margin-bottom: 5px; }
-  .steps--index .step__img--2 {
+  .step--index .step__img--2 {
     position: relative;
     top: -135px;
     right: -120px;
     margin-bottom: 15px; }
-  .steps--index .step__img--3 {
+  .step--index .step__img--3 {
     position: relative;
     top: -95px;
     left: -150px;
     margin-bottom: 15px; }
-  .steps--index .wrapper {
+  .step--index .wrapper {
     padding-top: 100px;
     margin-top: -100px; }
 
-.steps--about {
+.step--about {
   margin-top: 130px;
   padding-bottom: 135px; }
-  .steps--about .step__img {
+  .step--about .step__img {
     width: 51.3%; }
-    .steps--about .step__img img {
+    .step--about .step__img img {
       box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.3); }
-  .steps--about .step__text {
+  .step--about .step__text {
     margin-top: 45px; }
-  .steps--about .step__text-text {
+  .step--about .step__text-text {
     margin-top: -10px;
     width: 100%;
     line-height: 19px; }
-  .steps--about .step__block:nth-child(1) {
+  .step--about .step__block:nth-child(1) {
     margin-bottom: 160px; }
-  .steps--about .step__block:nth-child(2) {
+  .step--about .step__block:nth-child(2) {
     margin-bottom: 155px; }
-    .steps--about .step__block:nth-child(2) .step__text {
+    .step--about .step__block:nth-child(2) .step__text {
       margin-left: 65px;
       margin-right: 80px;
       margin-top: 35px; }
-    .steps--about .step__block:nth-child(2) .step__text-text {
+    .step--about .step__block:nth-child(2) .step__text-text {
       width: 89%;
       line-height: 19px; }
-  .steps--about .step__block:nth-child(3) .step__text-header {
+  .step--about .step__block:nth-child(3) .step__text-header {
     width: 102%; }
-  .steps--about .step__block:nth-child(3) .step__text-text {
+  .step--about .step__block:nth-child(3) .step__text-text {
     width: 100%;
     line-height: 19px; }
 
-.steps--how {
+.step--how {
   margin-top: 150px; }
-  .steps--how .step__block {
+  .step--how .step__block {
     margin-bottom: 83px; }
-    .steps--how .step__block:nth-child(2) {
+    .step--how .step__block:nth-child(2) {
       margin-bottom: 125px; }
-      .steps--how .step__block:nth-child(2) .step__text {
+      .step--how .step__block:nth-child(2) .step__text {
         margin-left: 55px; }
-    .steps--how .step__block:nth-child(3) {
+    .step--how .step__block:nth-child(3) {
       margin-bottom: 15px; }
-  .steps--how .step__text {
+  .step--how .step__text {
     margin-left: 30px; }
-  .steps--how .step__text-text {
+  .step--how .step__text-text {
     width: 88%;
     line-height: 1.31; }
-  .steps--how .step__img--1 {
+  .step--how .step__img--1 {
     position: relative;
     top: -55px;
     left: 15px; }
-  .steps--how .step__img--2 {
+  .step--how .step__img--2 {
     position: relative;
     top: -40px;
     right: -80px; }
-  .steps--how .step__img--3 {
+  .step--how .step__img--3 {
     position: relative;
     top: -65px;
     left: 50px; }
 
 @media (max-width: 1300px) {
-  .steps--index .step__img--2 {
+  .step--index .step__img--2 {
     right: -66px; }
-  .steps--index .step__img--3 {
+  .step--index .step__img--3 {
     left: -120px; }
-  .steps--how .step__img--2 {
+  .step--how .step__img--2 {
     right: -40px; }
-  .steps--how .step__img--3 {
+  .step--how .step__img--3 {
     left: 20px; } }
 
 @media (max-width: 1200px) {
-  .steps--index .step__text {
+  .step--index .step__text {
     margin-left: 60px; }
-  .steps--index .step__img--1 {
+  .step--index .step__img--1 {
     left: 0px; }
-  .steps--index .step__img--2 {
+  .step--index .step__img--2 {
     right: 0px; }
-  .steps--index .step__img--3 {
+  .step--index .step__img--3 {
     left: -70px; }
   .step--how .step__text {
     margin-left: 60px; }
-  .steps--about .step__text {
+  .step--about .step__text {
     margin-left: 60px; } }
 
 @media (max-width: 1024px) {
-  .steps--index .step__text {
+  .step--index .step__text {
     margin-left: 30px; }
-  .steps--how .step__text {
+  .step--how .step__text {
     margin-left: 30px; }
-  .steps--how .step__block {
+  .step--how .step__block {
     margin-bottom: 70px; }
-    .steps--how .step__block:nth-child(2) {
+    .step--how .step__block:nth-child(2) {
       margin-bottom: 110px; }
-  .steps--how .step__img--2 {
+  .step--how .step__img--2 {
     top: -20px; }
-  .steps--how .step__block:nth-child(2) .step__text {
+  .step--how .step__block:nth-child(2) .step__text {
     margin-left: 30px; }
-  .steps--about .step__text {
+  .step--about .step__text {
     margin-left: 30px; }
-  .steps--about .step__block:nth-child(2) .step__text {
+  .step--about .step__block:nth-child(2) .step__text {
     margin-left: 30px; } }
 
 @media (max-width: 1024px) {
   .step__img img {
     max-width: 90%; }
-  .steps--index {
+  .step--index {
     margin-top: 100px; }
-    .steps--index .step__text-header br {
+    .step--index .step__text-header br {
       display: none; }
-    .steps--index .step__block {
+    .step--index .step__block {
       margin-bottom: 40px; }
-    .steps--index .step__img--1 {
+    .step--index .step__img--1 {
       top: -20px; }
-    .steps--index .step__img--2 {
+    .step--index .step__img--2 {
       top: -20px;
       right: -45px; }
-    .steps--index .step__img--3 {
+    .step--index .step__img--3 {
       top: 0px;
       left: -60px; } }
 
 @media (max-width: 767.8px) {
-  .steps--index {
+  .step--index {
     margin-top: 110px; }
-    .steps--index .step__text {
+    .step--index .step__text {
       margin-left: 0; }
-    .steps--index .step__img {
+    .step--index .step__img {
       position: static;
       text-align: center; }
-    .steps--index .step__block:nth-child(2) {
+    .step--index .step__block:nth-child(2) {
       flex-direction: column-reverse; }
-    .steps--index .step__block {
+    .step--index .step__block {
       margin-bottom: 40px; }
-    .steps--index .step__img--3 {
+    .step--index .step__img--3 {
       position: relative;
       top: 0;
       left: -30px; }
@@ -1086,36 +1089,36 @@ img {
     width: 100%; }
   .step__text {
     width: 100%; }
-  .steps--how {
+  .step--how {
     margin-top: 100px;
     margin-bottom: 50px; }
-    .steps--how .step__block {
+    .step--how .step__block {
       margin-bottom: 40px; }
-    .steps--how .step__block:nth-child(2) {
+    .step--how .step__block:nth-child(2) {
       flex-direction: column-reverse;
       margin-bottom: 40px; }
-      .steps--how .step__block:nth-child(2) .step__text {
+      .step--how .step__block:nth-child(2) .step__text {
         margin-left: 0; }
-    .steps--how .step__img {
+    .step--how .step__img {
       position: static;
       text-align: center; }
-    .steps--how .step__text {
+    .step--how .step__text {
       margin-left: 0; }
-      .steps--how .step__text br {
+      .step--how .step__text br {
         display: none; }
-  .steps--about {
+  .step--about {
     padding-bottom: 70px;
     margin-top: 70px; }
-    .steps--about .step__text {
+    .step--about .step__text {
       margin-left: 0px; }
-    .steps--about .step__block:nth-child(1) {
+    .step--about .step__block:nth-child(1) {
       margin-bottom: 50px; }
-    .steps--about .step__block:nth-child(2) {
+    .step--about .step__block:nth-child(2) {
       flex-direction: column-reverse;
       margin-bottom: 50px; }
-    .steps--about .step__block:nth-child(2) .step__text {
+    .step--about .step__block:nth-child(2) .step__text {
       margin-left: 0px; }
-    .steps--about .step__img {
+    .step--about .step__img {
       width: 80%;
       margin: 0 auto;
       text-align: center; } }
@@ -1505,10 +1508,10 @@ img {
     opacity: 1;
     transform: scale(0.96); }
 
-.footer--copy:hover {
+.footer__link--copy:hover {
   opacity: 1; }
 
-.footer--copy:active {
+.footer__link--copy:active {
   color: black;
   opacity: 1;
   transform: scale(1); }
