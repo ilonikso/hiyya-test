@@ -7,9 +7,10 @@ The main emphasis was placed on download speed and site availability.
 Thanks to the use of a modern approach in development, it was possible to achieve a load time of 1.6 s. The high speed of loading a site directly affects how many people will remain on your site when loading, and therefore the success of the business.
 
 - Layout standards: HTML5, CSS3.
-- Technologies: Scss, ES6, SVG
+- Technologies: SCSS, ES6, SVG
 - Grid: Adaptive grid according to layout (CSS Grid + Flexboxes)
 - The adaptability of the layout: Adaptive + Responsive
+- JS Animations
 - Cross-browser compatibility: Chrome, Firefox, Opera, Safari.
 - The markup is made using the BEM methodology.
 - SVG/Retina ready
