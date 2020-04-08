@@ -1,4 +1,4 @@
-#Heyya - the website for the HR company.
+# Heyya - the website for the HR company.
 
 Heyya - 5-page responsive website developed using modern technology.
 The site was developed using a Mobile-first approach and BEM methodology.
@@ -16,3 +16,5 @@ Thanks to the use of a modern approach in development, it was possible to achiev
 - Best practics
 
 The work was done with high quality and on time. Working with Nick brought me not only pleasure but also invaluable experience!
+
+![Website overview](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
