@@ -17,4 +17,4 @@ Thanks to the use of a modern approach in development, it was possible to achiev
 
 The work was done with high quality and on time. Working with Nick brought me not only pleasure but also invaluable experience!
 
-![Website overview](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![Website overview](https://github.com/ilonikso/hiyya-test/raw/master/img/raster/heyya-review.png)
